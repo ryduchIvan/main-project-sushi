@@ -1,0 +1,328 @@
+{
+	"sets": [
+		{
+			"id": 1,
+			"name": "KILOGRAMM",
+			"price": "549",
+			"weight": "1,030",
+			"amount": "38",
+			"description": "Сирний рол з тунцем, Філадельфія в кунжуті з лососем, Філадельфія в кунжуті з мідіями, Філадельфія в ікрі тобіко з креветкою, Макі рол з лососем, васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/kg%282%29-476x476.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Вайлд туна",
+			"price": "449",
+			"weight": "630",
+			"amount": "24",
+			"description": "Рол Каліфорнія з тунцем в ікрі тобіко, Сирний рол з тунцем, Гункан з тунцем*2, Макі рол з тунцем, васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/wild_tune-476x476.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Запечений",
+			"price": "439",
+			"weight": "755",
+			"amount": "24",
+			"description": "Запечений рол з лососем, Запечений рол з лососем та сиром чеддер, Запечений рол зі смаженим лососем, васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/akcii/0902-476x476.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Філадельфія",
+			"price": "599",
+			"weight": "990",
+			"amount": "32",
+			"description": "рол Філадельфія в кунжуті з лососем, рол Філадельфія, Філадельфія з тунцем, Філадельфія в ікрі тобіко з креветкою, васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/fila%283%29-476x476.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Вулкан",
+			"price": "489",
+			"weight": "955",
+			"amount": "32",
+			"description": "Сирний рол з тунцем, Філадельфія в кунжуті з лососем, Філадельфія в кунжуті з мідіями, Філадельфія в ікрі тобіко з креветкою, Макі рол з лососем, васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/kg%282%29-476x476.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Преміум №1",
+			"price": "699",
+			"weight": "735",
+			"amount": "20",
+			"description": "Сирний рол з лососем, Сенсей, Філадельфія в ікрі тобіко з креветкою, Вулкан, імбир, васабі, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/prem1-476x476.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Камікадзе",
+			"price": "639",
+			"weight": "1,130",
+			"amount": "40",
+			"description": "Преміум рол Філадельфія, Преміум рол Каліфорнія з креветкою, Нігірі з лососем*2, Фелікс з креветкою*2, васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/kamikadz-476x476.jpg"
+		},
+		{
+			"id": 8,
+			"name": "Телий сет №2",
+			"price": "569",
+			"weight": "815",
+			"amount": "24",
+			"description": "рол Смажений з лососем, рол Смажений з креветкою, рол Запечений з креветкою спайсі, імбир, васабі, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/tepl-476x476.jpg"
+		},
+		{
+			"id": 9,
+			"name": "Сімейний",
+			"price": "599",
+			"weight": "1,080",
+			"amount": "40",
+			"description": "рол Філадельфія, Філадельфія в кунжуті з лососем, Сирний з мідією, дитячий рол 'Дракоша', дитячий рол 'Немо', васабі, імбир, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/sim%282%29-476x476.jpg"
+		}
+	],
+	"pizza": [
+		{
+			"id": 10,
+			"name": "KILOGRAMM",
+			"price": "229",
+			"weight": "880",
+			"description": "Італійське борошно, соус з цільних томатів, сир Моцарела, куряче філе, шинка, мисливські ковбаски, гриби печериці, сир Чедер, свіжі томати",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/21-476x476.jpg"
+		},
+		{
+			"id": 11,
+			"name": "Шинка та сир",
+			"price": "129",
+			"weight": "",
+			"description": "Італійське борошно, соус з цільних томатів, сир Моцарела, шинка, орегано",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/13%282%29-476x476.jpg"
+		},
+		{
+			"id": 12,
+			"name": "Кватро Формаджи",
+			"price": "149",
+			"weight": "",
+			"description": "Італійське борошно, сир Моцарела, сир Чедер, сир Дор Блю, сир Пармезан",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/11%281%29-476x476.jpg"
+		},
+		{
+			"id": 13,
+			"name": "Кантрі",
+			"price": "119",
+			"weight": "",
+			"description": "Італійське борошно, соус з цільних томатів, сир Моцарела, шинка, гриби печериці",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/15%282%29-476x476.jpg"
+		},
+		{
+			"id": 14,
+			"name": "4 м'яса",
+			"price": "239",
+			"weight": "",
+			"description": "Італійське борошно, соус з цільних томатів, сир Моцарела, салямі 'Пепероні', бекон, шинка, мисливські ковбаски",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/4%283%29-476x476.jpg"
+		},
+		{
+			"id": 15,
+			"name": "Курча та бекон",
+			"price": "139",
+			"weight": "",
+			"description": "Італійське борошно, вершковий соус, сир Моцарела, куряче філе, бекон, орегано",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/7%283%29-476x476.jpg"
+		},
+		{
+			"id": 17,
+			"name": "Дабл Папероні",
+			"price": "139",
+			"weight": "",
+			"description": "Італійське борошно, соус з цільних томатів, сир Моцарела, салямі 'Пепероні'",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/9%282%29-476x476.jpg"
+		},
+		{
+			"id": 18,
+			"name": "4 сезони",
+			"price": "139",
+			"weight": "",
+			"description": "Італійське борошно, соус з цільних томатів, сир Моцарела, куряче філе, бекон, шинка, салямі 'Пепероні', печериці, орегано",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/pizza/17%282%29-476x476.jpg"
+		}
+	],
+	"sushi": [
+		{
+			"id": 19,
+			"name": "Нігірі з креветкою",
+			"price": "79",
+			"weight": "70",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/10%282%29-476x476.jpg"
+		},
+		{
+			"id": 20,
+			"name": "Нігірі з лососем",
+			"price": "79",
+			"weight": "70",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/11_1-476x476.jpg"
+		},
+		{
+			"id": 21,
+			"name": "Нігірі з вугром",
+			"price": "139",
+			"weight": "78",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/12%281%29-476x476.jpg"
+		},
+		{
+			"id": 22,
+			"name": "Нігірі з тунцем",
+			"price": "79",
+			"weight": "70",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/20%281%29-476x476.jpg"
+		},
+		{
+			"id": 23,
+			"name": "Нігірі з креветкою",
+			"price": "79",
+			"weight": "70",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/10%282%29-476x476.jpg"
+		},
+		{
+			"id": 24,
+			"name": "Гункани з лососем",
+			"price": "129",
+			"weight": "100",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/19%281%29-476x476.jpg"
+		},
+		{
+			"id": 25,
+			"name": "Гункани з хіяші вакаме",
+			"price": "59",
+			"weight": "70",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/15%281%29-476x476.jpg"
+		},
+		{
+			"id": 26,
+			"name": "Гункани з ікрою тобіко",
+			"price": "119",
+			"weight": "70",
+			"amount": "2",
+			"description": "Рис, креветка Ебі, васабі, імбирь, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/14%281%29-476x476.jpg"
+		}
+	],
+	"beverages": [
+		{
+			"id": 26,
+			"name": "Лимонад 0.4 л.",
+			"price": "29",
+			"weight": "400",
+			"amount": "",
+			"description": "Лимон , морс , мята",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/l1-476x476.jpg"
+		},
+		{
+			"id": 27,
+			"name": "Морс 0.4 л.",
+			"price": "36",
+			"weight": "400",
+			"amount": "",
+			"description": "Лимон , морс , мята",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/mors1-476x476.jpg"
+		},
+		{
+			"id": 28,
+			"name": "Манговий коктель 0.4 л.",
+			"price": "29",
+			"weight": "400",
+			"amount": "",
+			"description": "Лимон , морс , мята",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/m1-476x476.jpg"
+		},
+		{
+			"id": 29,
+			"name": "Полунично-банановий коктель 0.4 л.",
+			"price": "49",
+			"weight": "400",
+			"amount": "",
+			"description": "Лимон , морс , мята",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/pb1-476x476.jpg"
+		},
+		{
+			"id": 30,
+			"name": "Лимонад 0.4 л.",
+			"price": "29",
+			"weight": "400",
+			"amount": "",
+			"description": "Лимон , морс , мята",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/l1-476x476.jpg"
+		},
+		{
+			"id": 31,
+			"name": "Coca-Cola 0.33 л.",
+			"price": "22",
+			"weight": "330",
+			"amount": "",
+			"description": "",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/cef6dc5b-d54d-4b43-989e-7e198c5f3dcd_1602848523-0-476x476.jpg"
+		},
+		{
+			"id": 32,
+			"name": "Fant 0.3 л.",
+			"price": "22",
+			"weight": "330",
+			"amount": "",
+			"description": "Лимон , морс , мята",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/products/5a1c6912-9e64-43bf-86a7-59204347babb_1602848525-0-476x476.jpg"
+		}
+	],
+	"rolls": [
+		{
+			"id": 33,
+			"name": "Тихий океан",
+			"price": "299",
+			"weight": "280",
+			"amount": "8",
+			"description": "Рис, норі, сир Філадельфія, лосось, вугор, креветка, авокадо, ікра тобіко, соус Унагі, кунжут, імбир, васабі, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/bezimeni-4-476x476.png"
+		},
+		{
+			"id": 34,
+			"name": "Філадельфія",
+			"price": "278",
+			"weight": "300",
+			"amount": "8",
+			"description": "Рис, норі, сир Філадельфія, лосось, вугор, креветка, авокадо, ікра тобіко, соус Унагі, кунжут, імбир, васабі, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/9%281%29-476x476.jpg"
+		},
+		{
+			"id": 35,
+			"name": "Дракон з вугрем",
+			"price": "399",
+			"weight": "295",
+			"amount": "8",
+			"description": "Рис, норі, сир Філадельфія, лосось, вугор, креветка, авокадо, ікра тобіко, соус Унагі, кунжут, імбир, васабі, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/1%2815%29-476x476.jpg"
+		},
+		{
+			"id": 36,
+			"name": "Запечений з креветкою",
+			"price": "289",
+			"weight": "300",
+			"amount": "8",
+			"description": "Рис, норі, сир Філадельфія, лосось, вугор, креветка, авокадо, ікра тобіко, соус Унагі, кунжут, імбир, васабі, соєвий соус",
+			"image": "https://kilogramm.com.ua/image/cache/catalog/productsnew/4_1%281%29-476x476.jpg"
+		}
+	]
+}

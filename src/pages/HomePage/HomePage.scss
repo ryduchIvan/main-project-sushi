@@ -1,0 +1,67 @@
+.main {
+}
+.main__cover {
+	position: relative;
+	height: 576px;
+}
+.cover__img {
+	background-image: url(https://kilogramm.com.ua/image/cache/catalog/banner/phs-ua-01-1803x803.jpg);
+	height: 632px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.header__icon {
+	width: 120px;
+	height: 120px;
+}
+.main__button {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background-image: url(../../assets/images/fon-rol.png), url(../../assets/images/fon-rol.png);
+	background-repeat: no-repeat, no-repeat;
+	background-size: contain;
+	background-position: -1em -1em, calc(100% + 1em) calc(100% + 1em);
+	background-color: #f54f15;
+	border-color: #f54f15;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 0.25rem;
+	line-height: 1.2;
+	font-size: 22px;
+	padding: 0.9em 3em;
+	border: none;
+	font-family: "Ubuntu-b";
+	cursor: pointer;
+	text-decoration: none;
+	width: 350px;
+}
+
+@media (max-width: 1090px) {
+	.main__button {
+		bottom: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+	}
+	.cover__img {
+		background-image: url(https://kilogramm.com.ua/image/cache/catalog/banner/phs-mob-ua-01-767x950.jpg);
+		background-size: 100% 160%;
+		background-position: center center;
+	}
+}
+
+@media (max-width: 685px) {
+	.cover__img {
+		background-size: 100% 120%;
+		object-fit: cover;
+	}
+}
+
+//@media (max-width: 580px) {
+//	.cover__img {
+//		background-size: 100% 100%;
+//		object-fit: cover;
+//	}
+//}

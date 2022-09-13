@@ -1,0 +1,126 @@
+.popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	z-index: 3;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all 0.5s ease;
+}
+.open-popup.popup {
+	visibility: visible;
+	background-color: rgba(0, 0, 0, 0.7);
+	transition: background-color 0.5s ease;
+}
+.popup__content {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 4;
+	background-color: #eee;
+	width: 80%;
+	opacity: 0;
+	min-height: 300px;
+}
+.popup.popup.open-popup .popup__content {
+	transition: all 0.3s ease-in-out;
+	top: 50%;
+	opacity: 1;
+}
+.content__header {
+	position: relative;
+	background-color: #f54f15;
+	display: flex;
+	height: 90px;
+	justify-content: center;
+	align-items: center;
+}
+.header__title {
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+.header__close {
+	background-color: black;
+	padding: 20px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.content__row {
+	display: flex;
+}
+.row__image {
+	flex: 0 1 50%;
+	img {
+		max-width: 539px;
+		height: 539px;
+	}
+}
+.row__info {
+	flex: 0 1 50%;
+	margin-top: 50px;
+	font-size: 20px;
+	padding-right: 10px;
+	span {
+		font-family: "Ubuntu-m";
+		font-size: 20px;
+		color: black;
+	}
+}
+.info__desc {
+	font-family: "Monseratt-l";
+}
+.info__weight {
+	margin-top: 10px;
+	font-size: 24px;
+	color: #f54f15;
+}
+.info__price {
+	font-size: 24px;
+	color: #f54f15;
+}
+.info__btn {
+	margin-top: 15px;
+	display: block;
+	border: none;
+	font-size: px;
+	border-radius: 1em !important;
+	padding: 20px 40px;
+	line-height: 0.4;
+	background-color: black;
+	color: white;
+	font-family: "Monseratt-l";
+	cursor: pointer;
+}
+
+.error-message {
+	font-size: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1110px) {
+	.content__row {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 20px 0px;
+	}
+	.info__btn {
+		margin: 0px auto;
+		margin-top: 20px;
+	}
+	.row__image {
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

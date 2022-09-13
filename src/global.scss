@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "Ubuntu-m";
+	src: url(./assets/fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+	font-family: "Ubuntu-r";
+	src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+	font-family: "Ubuntu-l";
+	src: url(./assets/fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+	font-family: "Ubuntu-b";
+	src: url(./assets/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+	font-family: "Monseratt-l";
+	src: url(./assets/fonts/Montserrat-Light.ttf);
+}
+body {
+	font-family: "Ubuntu-m";
+	//min-width: 470px;
+}
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+}
+input:focus {
+	outline: none;
+}
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+	min-width: 550px;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+	margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+#root {
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	max-width: 1360px;
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.header {
+	flex: 0 0 1;
+}
+.main {
+	flex: 1 1 0;
+}
+
+.footer {
+	flex: 0 0 1;
+}

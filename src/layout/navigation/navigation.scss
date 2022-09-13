@@ -1,0 +1,23 @@
+.catalog__nav {
+	margin-bottom: 25px;
+}
+.catalog__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.catalog__link {
+	padding-bottom: 18px;
+	padding-top: 18px;
+	flex: 0 1 25%;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-family: "Ubuntu-b";
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		transition: all 0.3s ease-in-out;
+		background-color: #dc410b;
+	}
+}

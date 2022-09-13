@@ -1,0 +1,153 @@
+.catalog {
+	margin-top: 101px;
+}
+.catalog__container {
+	max-width: 1460px;
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.catalog__box {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.catalog__grid {
+	flex: 0 1 80%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	width: 100%;
+	gap: 30px;
+	margin-right: 30px;
+}
+.catalog__item {
+	background-color: rgb(242, 242, 242);
+	padding: 15px;
+	max-width: 420px;
+	max-height: 390px;
+}
+.catalog__desc {
+	text-align: right;
+	font-size: 14px;
+	cursor: pointer;
+	margin-bottom: 5px;
+	position: relative;
+	&:hover {
+		transition: all 0.6s ease-in-out;
+		color: #f54f15;
+	}
+}
+.catalog__desc__icon {
+	position: absolute;
+	top: -3px;
+	right: 3.2em;
+}
+.catalog__img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	img {
+		display: block;
+		margin: 0px auto;
+		max-width: 240px;
+		max-height: 240px;
+	}
+	&:hover {
+		transition: all 0.3s ease-in-out;
+		transform: scale(105%);
+	}
+}
+.catalog__title {
+	text-align: center;
+	font-size: 20px;
+	span {
+		margin-right: 5px;
+		font-size: 20px;
+	}
+}
+
+.catalog__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.catalog__info__item {
+}
+.catalog__price {
+	font-size: 36px;
+	font-family: "Ubuntu-b";
+	span {
+		font-size: 14px;
+		margin-left: 5px;
+	}
+}
+.catalog__amount {
+	span {
+		margin-left: 5px;
+		font-family: "Ubuntu-l";
+	}
+}
+.catalog__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	span {
+		color: white;
+		font-family: "Ubuntu-b";
+		font-size: 56px;
+		margin-bottom: 5px;
+	}
+	&:hover {
+		transition: all 0.3s ease-in-out;
+		transform: scale(130%);
+	}
+}
+
+.catalog__item {
+	flex: 0 1 32%;
+}
+
+.catalog__text {
+	font-family: "Monseratt-l";
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000;
+	cursor: default;
+	font-style: normal;
+	margin-top: 20px;
+	p {
+		margin-bottom: 25px;
+	}
+	h2 {
+		margin-bottom: 10px;
+		max-width: 900px;
+		font-family: "Ubuntu-l";
+	}
+}
+
+@media (max-width: 1270px) {
+	.catalog__grid {
+		flex: 0 1 100%;
+		margin: 0px auto;
+	}
+}
+@media (max-width: 660px) {
+	.catalog__item {
+		margin: 0px auto;
+		max-width: 100%;
+	}
+	.catalog__img {
+		img {
+			max-width: 100%;
+			max-height: 100%;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
