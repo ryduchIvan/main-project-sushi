@@ -37,7 +37,9 @@ function GoodsList(params) {
 				{
 					status === "loading" && <Preload />
 				}
-				<Search />
+				{
+					status === "received" && <Search />
+				}
 				<div className="catalog__box">
 					<div className="catalog__grid">
 						{
