@@ -17,6 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path="/main-project-sushi" element={<HomePage/>}/>
         <Route path='/catalog' element={<Catalog />}>
           <Route path=":category" element={<Catalog />} />
         </Route>
