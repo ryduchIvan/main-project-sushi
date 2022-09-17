@@ -1,10 +1,11 @@
+import{API} from "../../api";
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const loadItem = createAsyncThunk(
 	"@@specific-item/load-item",
 	async ({ category, id }, { rejectWithValue }) => {
 		try {
-			const response = await fetch(`http://localhost:3001/${category}?id=${id}`);
+			const response = await fetch(`${API}/${category}?id=${id}`);
 			const data = await response.json();
 			return data;
 		} catch (error) {
